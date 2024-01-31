@@ -185,3 +185,7 @@ console.log(pencil);
 const rubber = Object.create({});
 console.log(rubber);
 
+
+// ************************************************************************
+
+// ***************19_9 Module Summary And Practice Tasks
