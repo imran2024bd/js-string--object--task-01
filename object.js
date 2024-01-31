@@ -68,13 +68,13 @@
 
 //Keys, Values, Nested Objects And Delete
 // to find the keys in a string
-const computer ={
-brand: 'dell',
-price:60000,
-processor: 'corei',
-hdd: '512gb',
-monitor: 'hp'
-}
+// const computer ={
+// brand: 'dell',
+// price:60000,
+// processor: 'corei',
+// hdd: '512gb',
+// monitor: 'hp'
+// }
 
 //************  to find the key in a object************
 // const keys = Object.keys(computer);
@@ -88,19 +88,19 @@ monitor: 'hp'
 
 //******************** */ to use nested in a object******************
 
-const college ={
-    name: 'VNC',
-    class: ['9','10','11', '12'],
-    events: ['science fair', 'bijoy dibos', '21 Feb'],
-    unique:{
-        color: 'blue',
-        result:{
-            gpa: 5,
-            merit: 'top'
-        }
-    }
+// const college ={
+//     name: 'VNC',
+//     class: ['9','10','11', '12'],
+//     events: ['science fair', 'bijoy dibos', '21 Feb'],
+//     unique:{
+//         color: 'blue',
+//         result:{
+//             gpa: 5,
+//             merit: 'top'
+//         }
+//     }
 
-}
+// }
 
 //************  to find the key in a object************
 // const cName = Object.keys(college);
@@ -135,7 +135,53 @@ const college ={
 
 // 19_8 Loop An Object And Ways To Declare An Object
 
+// const mobile ={
+//     brand: 'samsung',
+//     price:25000,
+//     color: 'black',
+//     camera: '12mp',
+//     isNew: true
+
+// }
+// for of useed in array Property
+// for in useed in object Property
+
+ //************To find the object properties by for in formula ********************
+//  for( const prop in mobile){
+//     console.log(prop);
+//  }
+//  result => => => => => => => =>
+//  brand
+// price 
+// color 
+// camera
+
+//************To find the object properties by for in formula ********************
+
+// for( const key in mobile){
+//     console.log(key);
+// }
+
+//************To find the object properties and value by for in formula ********************
+// for( const key in mobile){
+//     console.log(key,':' ,mobile[key] );
+// }
 
 
+//************* */ to Declear objet in various way *************
+// 1
+const mobile ={
+    brand: 'samsung',
+    price:25000,
+    color: 'black',
+    camera: '12mp',
+    isNew: true
 
+}
+// 2
+const pen = { brand: 'econo', price: 10 , color: 'black'}
+const pencil = new Object();
+console.log(pencil);
+const rubber = Object.create({});
+console.log(rubber);
 
