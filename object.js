@@ -76,14 +76,17 @@ hdd: '512gb',
 monitor: 'hp'
 }
 
+//************  to find the key in a object************
 // const keys = Object.keys(computer);
 // console.log(keys);
+// const Keys = Object.keys(computer);
+// console.log(Keys);
 
-// to find the values in a string
+// ****************to find the values in a string***************
 // const values = Object.values(computer);
 // console.log(values);
 
-// nested
+//******************** */ to use nested in a object******************
 
 const college ={
     name: 'VNC',
@@ -98,6 +101,11 @@ const college ={
     }
 
 }
+
+//************  to find the key in a object************
+// const cName = Object.keys(college);
+// console.log(cName);
+
 // to find name
 // console.log(college.name);
 // to find unique
@@ -108,17 +116,26 @@ const college ={
 // console.log(college.unique.result.gpa);
 
 // change value of merit in college.unique.result
-college.unique.result.merit = 'toper';
+// college.unique.result.merit = 'toper';
 // console.log(college);
 
 // to find bijoy dibos in events
-console.log(college.events[1]);
+// console.log(college.events[1]);
 
 // to change bijoy dibos in events
-college.events[1] = '16 December';
-console.log(college.events[1]);
+// college.events[1] = '16 December';
+// console.log(college.events[1]);
 
 // to delete class 
-delete college.class;
-console.log(college);
+// delete college.class;
+// console.log(college);
+
+
+//************************************************************************************
+
+// 19_8 Loop An Object And Ways To Declare An Object
+
+
+
+
 
