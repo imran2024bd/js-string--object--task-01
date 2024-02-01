@@ -29,25 +29,25 @@
 
 // Multiple Ways To Get _ Set Object Properties
 
-// const person = {
-//     name: 'imran',
-//     age: 38,
-//     profession: 'developer',
-//     salary:25000,
-//     married:true,
-//     'fav places': ['bandarban', 'saintmartin']
-// }
-// console.log(person);
+const person = {
+    name: 'imran',
+    age: 38,
+    profession: 'developer',
+    salary:25000,
+    married:true,
+    'fav places': ['bandarban', 'saintmartin']
+}
+console.log(person);
 // Dot notation
-// console.log(person.profession);
-// const income = person.salary
-// console.log(income);
+console.log(person.profession);
+const income = person.salary
+console.log(income);
 
 
 // bracket Notation === >>>>>>>>> to find the value of 
-// console.log(person['age']);
-// const old = person['age'];
-// console.log(old);
+console.log(person['age']);
+const old = person['age'];
+console.log(old);
 
 // to change string property value
 // person.salary=30000;
@@ -178,12 +178,13 @@ const mobile ={
     isNew: true
 
 }
+
 // 2
-const pen = { brand: 'econo', price: 10 , color: 'black'}
-const pencil = new Object();
-console.log(pencil);
-const rubber = Object.create({});
-console.log(rubber);
+// const pen = { brand: 'econo', price: 10 , color: 'black'}
+// const pencil = new Object();
+// console.log(pencil);
+// const rubber = Object.create({});
+// console.log(rubber);
 
 
 // ************************************************************************
